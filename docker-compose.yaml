@@ -6,6 +6,6 @@ services:
     ports:
       - "8090:80"
     volumes:
-      - myvol:/usr/share/nginx/html
+      - ./files:/usr/share/nginx/html
 volumes:
-  myvol:
+  files:
